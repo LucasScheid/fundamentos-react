@@ -7,12 +7,13 @@ import ComFilhos from './components/basicos/ComFilhos'
 import Repeticao from './components/basicos/Repeticao'
 import Condicional from './components/basicos/Condicional'
 import CondicionalComIf from './components/basicos/CondicionalComIf'
+import Chamada from './components/api-call/Chamada'
 import Card from './components/layout/Card'
 
 let app = props => (
     <div className="App">
 
-        <Card titulo="#01 - Primeiro Componente">
+        {/* <Card titulo="#01 - Primeiro Componente">
             <Primeiro />
         </Card>
 
@@ -41,8 +42,9 @@ let app = props => (
 
         <Card titulo="#06 - CondicionalComIf v2">
             <CondicionalComIf numero={24} />
-        </Card>
+        </Card> */}
 
+        <Chamada />
 
     </div>
 );
